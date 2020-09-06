@@ -10,7 +10,7 @@ hashtags = ['#picoftheday', '#instagood', '#nofilter', '#tbt', '#love', '#nature
 
 10.times do
     user = User.create(username: Faker::Internet.username, email: Faker::Internet.email, name: Faker::Name.name)
-    post = Post.create(user_id: user.id, likes: 3)
+    post = Post.create(user_id: user.id, likes: 3, caption: Faker::Quotes::Shakespeare.hamlet_quote)
     comment = Comment.create(post_id: post.id, content: Faker::TvShows::Friends.quote)
     hashtag = Hashtag.create(name: hashtags.sample)
 end
