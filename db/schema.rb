@@ -1,10 +1,12 @@
-ActiveRecord::Schema.define(version: 2020_09_05_183610) do
+
+ActiveRecord::Schema.define(version: 2020_09_07_184427) do
 
   create_table "comments", force: :cascade do |t|
     t.integer "post_id"
     t.string "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
   end
 
   create_table "follows", force: :cascade do |t|

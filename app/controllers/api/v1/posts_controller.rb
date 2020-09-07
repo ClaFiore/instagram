@@ -4,7 +4,7 @@ class Api::V1::PostsController < ApplicationController
     
     def index
         posts = Post.all 
-        render json: posts, include: [:user, :comments, :hashtags]
+        render json: posts
     end
 
     def show
@@ -33,6 +33,6 @@ private
     end
 
     def post_params
-        params.require(:post).permit(:user_id, :caption, :image, :likes, :hashtags => [])
+        params.require(:post).permit(:user_id, :caption, :image, :likes, :hashtags => [], :comments => [])
     end
 end
