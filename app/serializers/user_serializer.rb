@@ -7,5 +7,7 @@ class UserSerializer < ActiveModel::Serializer
     has_many :comments
 
   attributes :id, :username, :name, :bio, :email, :password, :profilepic
+
+  
   
 end

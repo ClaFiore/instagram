@@ -21,7 +21,7 @@ jennifer = User.create(username: '@jennifer', email: 'ja@gmail.com', name: 'Jenn
 post3 = Post.create(user_id: jennifer.id, likes: 150, caption: 'Positano', image: 'https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Amalfi-Coast/positano-view.jpg')
 post4 = Post.create(user_id: jennifer.id, likes: 189, caption: 'Woke up in a dream!', image: 'https://cdn.getyourguide.com/img/tour/5ad08ed330595.jpeg/148.jpg')
 
-margot = User.create(username: '@margot', email: 'margot@gmail.com', name: 'Margot Robbie', bio: 'Hollywood Actress, Wolf of Wall street', password: 'margotpassword', profilepic: 'https://www.refinery29.com/images/9894810.jpg?format=webp&width=720&height=864&quality=85&crop=5%3A6')
+margot = User.create(username: '@margot', email: 'margot@gmail.com', name: 'Margot Robbie', bio: 'Hollywood Actress, Wolf of Wall street', password: 'margotpassword', profilepic: 'https://www.biography.com/.image/t_share/MTUxNTgzODk3Mjk2MDUzNTE2/gettyimages-870916736.jpg')
 post5 = Post.create(user_id:margot.id, likes: 240, caption: 'Under the Tuscan Sun!', image: 'https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Tuscany/tuscany-main-page.jpg')
 post6 = Post.create(user_id:margot.id, likes: 217, caption: 'Found this gem', image: 'https://journeytheplanet.com/wp-content/uploads/europe-italy-spello-01.jpg')
 
