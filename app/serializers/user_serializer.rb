@@ -6,7 +6,7 @@ class UserSerializer < ActiveModel::Serializer
     has_many :posts, dependent: :destroy
     has_many :comments
 
-  attributes :id, :username, :name, :bio, :email, :password, :profilepic
+  attributes :id, :username, :name, :bio, :email, :password, :profilepic, :comments
 
   
   
