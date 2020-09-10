@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :posts
       resources :comments
       resources :hashtags
-      resources :post_hashtags
+      resources :likes
       resources :follows
     end
   end
