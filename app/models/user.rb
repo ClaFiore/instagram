@@ -5,6 +5,7 @@ class User < ApplicationRecord
     has_many :followers, through: :following_users
     has_many :posts, dependent: :destroy
     has_many :comments
+    has_many :likes
 
     def feed
         feed = []

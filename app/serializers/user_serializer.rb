@@ -5,8 +5,9 @@ class UserSerializer < ActiveModel::Serializer
     has_many :followers, through: :following_users
     has_many :posts, dependent: :destroy
     has_many :comments
+    has_many :likes
 
-  attributes :id, :username, :name, :bio, :email, :password, :profilepic, :comments
+  attributes :id, :username, :name, :bio, :email, :password, :profilepic, :comments, :likes
 
   
   
