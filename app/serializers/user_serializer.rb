@@ -7,7 +7,7 @@ class UserSerializer < ActiveModel::Serializer
     has_many :comments
     has_many :likes
 
-  attributes :id, :username, :name, :bio, :email, :password, :profilepic, :comments, :likes, :posts
+  attributes :id, :username, :name, :bio, :email, :password, :profilepic, :comments, :likes, :posts, :followers, :followees
 
   
   
