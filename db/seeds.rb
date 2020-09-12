@@ -12,22 +12,22 @@ Like.destroy_all
 #     hashtag = Hashtag.create(name: hashtags.sample)
 # end
 
-gaga = User.create(username: '@ladygaga', email: 'gaga@gmail.com', name: 'Stefanie Germanotta', bio: 'Singer and Actress(A Star Is Born)', password: 'g', profilepic: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lady_Gaga_interview_2016.jpg/1200px-Lady_Gaga_interview_2016.jpg')
-post1 = Post.create(user_id: gaga.id, caption: 'Love Venice!', image: 'https://cdn.cnn.com/cnnnext/dam/assets/170606121206-italy---travel-destination---shutterstock-517522957.jpg')
-post2 = Post.create(user_id: gaga.id, caption: 'Beautiful Cinque Terre', image: 'https://www.fodors.com/wp-content/uploads/2019/03/20GorgeousSidetownsinItaly__HERO_shutterstock_688078159.jpg')
+gaga = User.create(username: '@ladygaga', email: 'gaga@gmail.com', name: 'Stefanie Germanotta', bio: 'Singer and Actress(A Star Is Born)', password: 'g', profilepic: 'https://ae01.alicdn.com/kf/HTB1jlGGXsfrK1Rjy1Xdq6yemFXaV/Fashion-Super-Star-Lady-Gaga-Cat-Eye-Sunglasses-Women-Men-2018-Luxury-Brand-Designer-Square-Shades.jpg')
+post1 = Post.create(user_id: gaga.id, caption: 'New York tonight', image: 'https://www.nme.com/wp-content/uploads/2018/10/GettyImages-1045712940-696x442.jpg')
+post2 = Post.create(user_id: gaga.id, caption: 'Oscars night with Tiffany & Co', image: 'https://media.vanityfair.com/photos/5c733f31d1d4012da45cefe8/master/w_2560%2Cc_limit/00-tout-lady-gaga.jpg')
 
 
-jennifer = User.create(username: '@jennifer', email: 'ja@gmail.com', name: 'Jennifer Anistorn', bio: 'Actress and Friend', password: 'j', profilepic: 'https://i.pinimg.com/originals/68/7f/b0/687fb0f60ce52f262d4bcee849d5488a.jpg')
-post3 = Post.create(user_id: jennifer.id, caption: 'Positano', image: 'https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Amalfi-Coast/positano-view.jpg')
-post4 = Post.create(user_id: jennifer.id, caption: 'Woke up in a dream!', image: 'https://cdn.getyourguide.com/img/tour/5ad08ed330595.jpeg/148.jpg')
+jennifer = User.create(username: '@jennifer', email: 'ja@gmail.com', name: 'Jennifer Anistorn', bio: 'Actress and Friend', password: 'j', profilepic: 'https://i.pinimg.com/originals/d4/a0/ec/d4a0ecf5047cfc5408cb55dc381a0401.jpg')
+post3 = Post.create(user_id: jennifer.id, caption: 'Good Morning!', image: 'https://www.usmagazine.com/wp-content/uploads/2019/10/Reese-Witherspoon-and-Jennifer-Aniston-Morning-Show-Salaries-Revealed.jpg?quality=86&strip=all')
+post4 = Post.create(user_id: jennifer.id, caption: "Who's ready for a friends reunion?", image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/jennifer-aniston-friends-1994.jpg')
 
-margot = User.create(username: '@margot', email: 'margot@gmail.com', name: 'Margot Robbie', bio: 'Hollywood Actress, Wolf of Wall street', password: 'm', profilepic: 'https://www.biography.com/.image/t_share/MTUxNTgzODk3Mjk2MDUzNTE2/gettyimages-870916736.jpg')
-post5 = Post.create(user_id:margot.id, caption: 'Under the Tuscan Sun!', image: 'https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Tuscany/tuscany-main-page.jpg')
-post6 = Post.create(user_id:margot.id, caption: 'Found this gem', image: 'https://journeytheplanet.com/wp-content/uploads/europe-italy-spello-01.jpg')
+margot = User.create(username: '@margot', email: 'margot@gmail.com', name: 'Margot Robbie', bio: 'Hollywood Actress, Wolf of Wall street', password: 'm', profilepic: 'https://www.instylemag.com.au/media/12183/margot-robbie-square.jpg')
+post5 = Post.create(user_id:margot.id, caption: "New hair don't care", image: 'https://assets.vogue.com/photos/5cf7ed4504f90a017a26d60f/master/pass/5-things-to-know-about-margot-robbie.jpg')
+post6 = Post.create(user_id:margot.id, caption: 'So much fun working with these inspiring ladies!', image: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F10%2Fld-d21-04710-r2-2000.jpg')
 
-taylor = User.create(username: '@taylor', email: 'taylor@gmail.com', name: 'Taylor Swift', bio: 'Singer from Tennessee', password: 't', profilepic: 'https://pmcvariety.files.wordpress.com/2020/01/taylor-swift-variety-cover-5-16x9-1000.jpg?w=1000')
-post7 = Post.create(user_id: taylor.id, caption: 'Who loves the Dolomites as much as I do?', image: 'https://www.telegraph.co.uk/content/dam/Travel/2020/June/dolomites-italy-getty-xlarge.jpg')
-post8 = Post.create(user_id: taylor.id, caption: 'Lake Braies in the Dolomites', image: 'https://live.staticflickr.com/7870/33530566718_cee182aae8_b.jpg')
+taylor = User.create(username: '@taylor', email: 'taylor@gmail.com', name: 'Taylor Swift', bio: 'Singer from Tennessee', password: 't', profilepic: 'https://cdn1.i-scmp.com/sites/default/files/styles/768x768/public/2015/07/22/charts_tor421_46706553.jpg?itok=ndaCUFqE')
+post7 = Post.create(user_id: taylor.id, caption: 'Amazing concert last night! Thank you guys for your love!', image: 'https://content.fortune.com/wp-content/uploads/2017/09/taylor-swift.jpg')
+post8 = Post.create(user_id: taylor.id, caption: 'New release: LOVER! Go check it out!', image: 'https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=2000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2019%2F10%2Ftaylor-swift-lover-2000.jpg')
 
 comment7 = Comment.create(user_id: margot.id, post_id: post7.id, content: 'I do!')
 comment8 = Comment.create(user_id: jennifer.id, post_id: post8.id, content: 'Love it!')
