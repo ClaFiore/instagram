@@ -4,7 +4,7 @@ class PostSerializer < ActiveModel::Serializer
     has_many :likes
     has_one :user
   
-  attributes :id, :user_id, :caption, :image, :comments, :likes, :created_at
+  attributes :id, :user_id, :caption, :image, :comments, :likes, :created_at, :time, :user
 
  
 
